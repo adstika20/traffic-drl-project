@@ -1,0 +1,21 @@
+{
+    "algorithm": "DQN",
+    "seed": 42,
+    "total_timesteps": 20000,
+    "learning_rate": 0.001,
+    "buffer_size": 10000,
+    "learning_starts": 1000,
+    "batch_size": 64,
+    "gamma": 0.99,
+    "train_freq": 4,
+    "gradient_steps": 1,
+    "target_update_interval": 500,
+    "exploration_fraction": 0.3,
+    "exploration_initial_eps": 1.0,
+    "exploration_final_eps": 0.05,
+    "network_architecture": [
+        64,
+        64
+    ],
+    "device": "cpu"
+}
